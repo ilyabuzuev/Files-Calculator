@@ -26,9 +26,6 @@
 
 int main()
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
     // Указатель для работы с файлами
     FILE *inputValues, *outputValues;
     // Переменная для ввода пути с клавиатуры к входному файлу
